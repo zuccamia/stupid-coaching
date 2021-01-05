@@ -1,0 +1,19 @@
+<%= csrf_meta_tags %>
+<div class="container">
+    <div class="top center">
+        <div class="col">
+            <h1>You asked:</h1>
+            <p><%= @question.capitalize %></p>
+        </div>
+    </div>
+    <div class="center">
+        <div class="col">
+            <h1>Here is your coach's answer:</h1>
+            <img src="assets/not-nice-coach.jpg" alt="nice-coach" class="circle-bordered">
+            <p><%= @answer.upcase %></p>
+        </div>
+    </div>
+    <div class="center">
+        <%= link_to 'Ask another question', ask_path %>
+    </div>
+</div>

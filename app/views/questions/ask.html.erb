@@ -1,0 +1,17 @@
+<%= csrf_meta_tags %>
+<div class="container">
+    <div class="inline top">
+        <div class="col">
+            <img src="assets/nice-coach.jpg" alt="nice-coach" class="circle-bordered">
+        </div>
+        <div class="col">
+            <h1>Ask your coach anything!</h1>
+        </div>
+    </div>
+    <div class="block center">
+        <form action="/ask" method="post">
+        <input class="rounded-shadowed" type="text" name="question">
+        <input class="btn center" type="submit" value="Ask!">
+        </form>
+    </div>
+</div>
