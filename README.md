@@ -1,8 +1,8 @@
 # README
 
-###Stupid Coaching
+### Stupid Coaching
 
-#####A game when you just need a kick in the a\*\*!
+##### A game when you just need a kick in the a\*\*!
 **How to play**
 
 *If you don't have git on your machine, [install it](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/set-up-git)*
