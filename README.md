@@ -20,4 +20,4 @@ Then run the following command once you're in:
 ```bash
 rails s
 ```
-Go to your browser and paste & go `localhost:3000/ask' and you will see the coach :)!
+Go to your browser and paste & go `localhost:3000/ask` and you will see the coach :)!
